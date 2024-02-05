@@ -1,0 +1,113 @@
+body,
+h1, h2, h3, p, /* Add other elements as needed */
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Helps with consistent sizing */
+}
+
+body {
+  overflow: hidden;
+}
+
+.background-container {
+  background-size: cover;
+  height: 100vh;
+  /* Add other background-related styles as needed */
+}
+
+.logo-container {
+  display:flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.logotradethrill {
+  width: 135px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevent inline element spacing issues */
+  
+}
+
+.logo-name {
+  font-family: comic sans-ms;
+  color: #F4E9E1;
+  font-size: 35px;
+  margin-top: 10px;
+  
+  /* Add other styles as needed */
+}
+
+.create {
+  color:white;
+  flex: auto;
+  flex-direction: column;
+  font-size: 20px;
+  margin-right:50px;
+  margin-left: 900px;
+    
+}
+
+.createstatement {
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  font-family: roboto mono;
+}
+
+.NameStatement {
+  margin-left:60px;
+  color:white;
+  display: flex;
+  margin-top:20px;
+}
+
+.inputName {
+  margin-left:60px;
+  width:400px;
+  height:30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.loginpage {
+  color:white;
+  font-size: 20px;
+  text-align:center;
+}
+
+.Logintext {
+  color:white;
+  font-size:20px;
+  text-align: center;
+  margin-right:50px;
+  margin-left: 700px;
+  font-family: roboto mono;
+}
+
+.button {
+  margin-left:60px;
+  width:400px;
+  height:30px;
+  border: none;
+  border-radius: 5px;
+  margin-top:40px;
+  font-size: 20px;
+  background-color:#38b6ff;
+  cursor: pointer;
+}
+
+.text-box {
+  width:354px;
+  height:30px;
+  margin-right:50px;
+  margin-left: 880px;
+  border: none;
+  border-radius: 5px; /* Set border-radius to 0 for a cornerless appearance */
+  padding: 10px;
+}
+.text-box:focus {
+  outline: none;
+}
+
